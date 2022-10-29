@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: "";
+  background-image: 
+    url('https://lh3.googleusercontent.com/ZNnWkG6lj-fx9HOIAs-AkpklqnmnB-RWgoPRD5m0_7Y-gZJPCcu2NA1cV9kOJPQadB_24PbYwn8Usx6p=w960-h960-n-o-v1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box1 {
+  width: 80vw;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #adad85;
+  background: linear-gradient(
+      100deg,
+      rgba(100, 50, 100, 0.8),
+      rgba(130, 100, 130, 0.7)
+    );
+    text-align: center;
+  }
+.h1 {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 15vh;
+  color: white;
+}
+.box2 {
+  width: 80vw;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #adad85;
+  background: linear-gradient(100deg, rgba(100, 60, 50, 0.5), rgba(60, 50, 100, 0.5), rgba(104, 154, 255, 0.4));
+  text-align: left;
+}
+.text {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 8vh;
+  color: white;
+  padding: 6vw;
+}
+.span {
+  padding: 5vw;
+}
+.span1 {
+ padding: 10vw;
+}
+.link {
+  text-decoration: none;
+  color: black
+}
+.box3 {
+  width: 80vw;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #adad85;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  text-align: left;
+  box-align: center;
+}
+.box4 {
+  width: 80vw;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #adad85;
+  text-align: left;
+  box-align: center;
+  background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+.text0 {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 8vh;
+  color: black;
+  padding: 6vw;
+}
+.text1 {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 5vh;
+  color: black;
+  padding: 6vw;
+}
+@media (min-width: 100px) and (max-width: 1024px) {
+  .h1 {
+    font-size: 7.5vh;
+  }
+  .text {
+    font-size: 4vh;
+    padding: 3vw;
+  }
+  .text0 {
+    font-size: 4vh;
+    padding: 3vw;
+  }
+  .text1 {
+    font-size: 2.5vh;
+    padding: 3vw;
+  }
+}
