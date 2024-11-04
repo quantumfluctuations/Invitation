@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: "";
+body {
   background-image: 
     url('https://hbr.org/resources/images/article_assets/2021/08/Sep21_02_1176415931.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: auto;
 }
 .box1 {
   width: 80vw;
